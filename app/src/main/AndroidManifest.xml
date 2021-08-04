@@ -28,16 +28,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taimoor">
-        <activity android:name=".activities.MallSelectionActivity"></activity>
-        <activity android:name=".activities.SplashActivity" /> <!-- android:theme="@style/Theme.Taimoor.NoActionBar" -->
-        <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.MallsSelectionActivity" />
-        <activity android:name=".activities.unused.MapsActivityCurrentPlace" />
+        <activity android:name=".activities.MallSelectionActivity"/>
+        <activity android:name=".activities.MapsActivity" />
         <activity android:name=".activities.SignInActivity" />
         <activity android:name=".activities.SignUpActivity" />
         <activity android:name=".activities.ForgotPasswordActivity" />
-        <activity android:name=".activities.TestActivity" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDT9r5hpfqfyqsfb_ev7fKODNhSGouwB9k" />
@@ -45,10 +40,9 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".activities.MapsActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
