@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780758717285",
+    "project_id": "taimoor-7cbd1",
+    "storage_bucket": "taimoor-7cbd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780758717285:android:76174d40d80fcd096dc78c",
+        "android_client_info": {
+          "package_name": "com.example.taimoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780758717285-nftlqeml11lidh6dcsbu1juahnh16ghu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDeeyiuMd-TGdWTE1gGHpHEpBZOWCQR6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780758717285-nftlqeml11lidh6dcsbu1juahnh16ghu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
